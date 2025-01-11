@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import { cn } from "@/lib/utils";
 
 export const AddToCartButton = () => {
@@ -6,7 +6,7 @@ export const AddToCartButton = () => {
     <button
       className={cn(
         "px-8 py-3 bg-white text-black rounded-full",
-        "hover:bg-nike-gray hover:text-white transition-colors duration-200",
+        "hover:bg-gray-800 w-fit hover:text-white transition-colors duration-200",
         "text-sm font-medium tracking-wider"
       )}
     >

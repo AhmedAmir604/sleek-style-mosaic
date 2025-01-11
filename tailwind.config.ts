@@ -18,6 +18,10 @@ export default {
       },
     },
     extend: {
+      letterSpacing: {
+        extraWide: "0.25em", // Custom tracking value
+        ultraWide: "0.70em", // Another custom tracking value
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -69,5 +73,6 @@ export default {
       },
     },
   },
+
   plugins: [require("tailwindcss-animate")],
 } satisfies Config;

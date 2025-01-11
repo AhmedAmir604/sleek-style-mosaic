@@ -32,7 +32,7 @@ export const VerticalNav = () => {
             href={item.href}
             className={cn(
               "text-gray-300 italic font-semibold hover:text-white transition-colors duration-200",
-              "tracking-wider text-sm"
+              "tracking-wider text-sm font-normal"
             )}
           >
             {item.label}
